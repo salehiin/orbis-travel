@@ -24,9 +24,26 @@ body{
 	color: #3A3A3A;
 }
 .common_btn{
+    width: 174px;
+    height: 52px;
+    padding: 16px;
     color: #fff;
     background-color: #FF5400;
     border: none;
+    border-radius: 8px;
+}
+.cmn-title{
+    padding-bottom: 24px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.cmn-text{
+    /* font-family: Mulish; */
+    margin-bottom: 28px;
+    font-weight: 400;
+    /* line-height: 26px; */
+    color: rgba(19, 19, 24, 0.70);
 }
 
 
@@ -154,5 +171,35 @@ nav li a{
     margin-right: 16px;
 }
 
-/* POPULAR DESTINATION */
-.popular-destination{}
+main{
+    width: 81%;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+/* POPULAR Tours */
+
+.popular-tours{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+}
+.popular-text{
+    width: 50%;
+    margin-right: 100px;
+}
+.popular-img{
+    width: 50%;
+}
+.popular-img img{
+    width: 100%;
+}
+.popular-text ul{
+    /* margin-bottom: 24px; */
+    /* list-style: none; */
+}
+.popular-text li{
+    margin: 20px;
+    color: color: rgba(19, 19, 24, 0.70);
+}

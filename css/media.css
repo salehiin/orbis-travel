@@ -20,5 +20,20 @@
     width: 275px;
     }
 
+/* POPULAR Tours */
+
+.popular-tours{
+    padding: 24px 0;
+    flex-direction: column;
+}
+.popular-text{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.popular-img{
+    width: 100%;
+}
+
 
 }
