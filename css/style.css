@@ -53,6 +53,16 @@ body{
     /* line-height: 26px; */
     color: rgba(19, 19, 24, 0.70);
 }
+.cmn-mini-title{
+    font-size: 20px;
+    font-weight: 800;
+    color: #131318;
+}
+.cmn-mini-text{
+    margin: 20px 0;
+    font-weight: 400;
+    color: #5A5A5D;
+}
 
 
 /* HEADER STYLES */
@@ -111,31 +121,11 @@ nav li a{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* background: rgba(255, 255, 255, 0.10); */
-    /* background-color: 000; */
-    /* padding: 106px 185px; */
-    /* opacity: .5; */
-    /* width: 100%; */
-    /* height: 80vh; */
-    /* position: relative; */
-    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
     border-radius: 8px;
 }
-/* .banner .box{
-	width: 100%;
-	height: 100vh;
-	opacity: 0.4;
-	position: absolute;
-	top: 0;
-    bottom: 0;
-	background-color: black;
-} */
 .banner-content{
     width: 100%;
     padding: 100px 150px;
-    /* height: 80vh; */
-    /* opacity: 1; */
-    /* background-color: #000; */
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     color: #fff;
 }
@@ -147,34 +137,24 @@ nav li a{
     padding: 30px 70px;
 } 
 .travel-options{
-    /* border: 5px solid #fff; */
-    /* padding: 24px; */
     background: rgba(255, 255, 255, 0.30);
     border-radius: 8px;
-    /* background-color: #FFF; */
-    /* opacity: 0.5; */
 }
 .travel-options input,
 .travel-options select, 
 .travel-options button{
-    width: 174px;
+    width: 170px;
     height: 52px;
     margin: 12px;
     padding: 16px;
     border-radius: 8px;
     border: 0;
-    /* opacity: 1!important; */
-    /* background-color: #fff; */
-    /* z-index: 5; */
 }
 .travel-options input:focus,
 .travel-options select:focus{
     outline: none;
-    /* margin-left: 0; */
 }
-.travel-options select option{
-    /* padding: 106px; */
-}
+.travel-options select option{}
 .travel-options button i{
     margin-right: 16px;
 }
@@ -182,7 +162,6 @@ nav li a{
 main{
     width: 81%;
     margin: 0 auto;
-    /* text-align: center; */
 }
 
 /* POPULAR Tours */
@@ -191,7 +170,6 @@ main{
     padding: 100px 0;
     display: flex;
     align-items: center;
-    /* text-align: center; */
 }
 .popular-text{
     width: 50%;
@@ -279,4 +257,39 @@ main{
 .whyus-content h5{
     padding: 32px 0;
     font-size: 24px;
+}
+
+/* NEWSLETTER */
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+}
+.form-wrap{
+    width: 43%;
+    padding: 0 40px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+}
+hr{
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.form-wrap form input{
+    width: 100%;
+    margin: 18px 0 12px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.form-wrap form input:focus{
+    outline: none;
+}
+.discount{
+    width: 55%;
+}
+.discount img{
+    width: 100%;
+    height: 100%;
 }

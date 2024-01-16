@@ -1,5 +1,11 @@
 @media only screen and (max-width: 600px){
 
+ /* COMMON STYLES */
+
+    .common-wrap{
+        margin-bottom: 60px;
+    }
+
     .banner-content{
         padding: 32px 76px;
     }
@@ -89,5 +95,17 @@
     width: 100%;
 }
 
+/* NEWSLETTER */
+
+.newsletter{
+    flex-direction: column;
+}
+.form-wrap{
+    width: 100%;
+}
+.discount{
+    width: 100%;
+    margin: 20px 0;
+}
 
 }
