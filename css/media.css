@@ -6,6 +6,34 @@
         margin-bottom: 60px;
     }
 
+/* HEADER STYLES */
+nav{
+    /* flex-direction: column; */
+}
+nav > ul{
+    /* display: none; */
+    flex-direction: column;
+}
+.toggle-btn{
+    display: block;
+}
+nav > ul li:not(:first-child){
+    display: none;
+}
+nav li{
+    margin: 0;
+	margin-bottom: 34px;
+    text-align: right;
+}
+
+.toggle-btn:hover nav > ul li{
+    display: block;
+    /* flex-direction: column; */
+}
+
+
+/* BANNER STYLES */
+
     .banner-content{
         padding: 32px 76px;
     }
