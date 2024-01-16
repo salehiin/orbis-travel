@@ -123,6 +123,15 @@ nav li{
     width: 100%;
 }
 
+/* BLOG */
+
+.blog-wrap{
+    flex-direction: column;
+}
+.blog-part{
+    width: 100%;
+}
+
 /* NEWSLETTER */
 
 .newsletter{
