@@ -32,6 +32,14 @@ body{
     border: none;
     border-radius: 8px;
 }
+.common-wrap{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.common-top-wrap{
+    padding: 0 210px;
+}
 .cmn-title{
     padding-bottom: 24px;
     font-size: 40px;
@@ -202,4 +210,73 @@ main{
 .popular-text li{
     margin: 20px;
     color: color: rgba(19, 19, 24, 0.70);
+}
+
+/* DESTINATIONS */
+
+.destination-image{
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+}
+.destination-image img{
+    width: 100%;
+    height: 100%;
+}   
+.mald{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+.indo{
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+.sril{
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+}
+.nort{
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+}
+.kash{
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+}
+.bang{
+    grid-column: 1/span 5;
+    grid-row: 3/span 1;
+}
+.band{
+    grid-column: 6/span 7;
+    grid-row: 3/span 1;
+}
+
+/* WHY CHOOSE US */
+
+.whyus-cotent-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.whyus-content{
+    width: 48%;
+    padding: 22px;
+    text-align: left;
+    color: #5A5A5D;
+    border-radius: 16px;
+}
+.whyus-content > div{
+    width: 64px;
+    height: 64px;
+}
+.whyus-content > div img{
+    width: 100%;
+}
+.whyus-content h5{
+    padding: 32px 0;
+    font-size: 24px;
 }
